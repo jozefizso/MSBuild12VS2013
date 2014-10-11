@@ -12,6 +12,10 @@
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Program Files %28x86%29\MSBuild\12.0\Bin\MSBuild.exe</StartProgram>
+    <StartArguments>"%24%28TargetDir%29Task.proj"</StartArguments>
+    <StartWorkingDirectory></StartWorkingDirectory>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
